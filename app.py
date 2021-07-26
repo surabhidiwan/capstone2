@@ -22,7 +22,7 @@ class Donation(db.Model):
       return 'Donation '+str(self.id)
 
 #for index
-@app.route('/')
+@app.route('https://om-surushe.github.io/capstone2/')
 def index():
    return render_template('index.html')
 
