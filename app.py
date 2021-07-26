@@ -128,5 +128,4 @@ def game9():
    return render_template('9.html')
 
 
-# if __name__ == "__main__" :
-#    app.run()
+app.run(debug==True)
